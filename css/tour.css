@@ -9,7 +9,7 @@
 		url('../fonts/icomoon/icomoon.svg?-ee0u0f#icomoon') format('svg');
 }
 
-html, body, .container, .header {
+html, body, .container-tour, .header {
 	height: 100%;
 }
 
@@ -88,21 +88,21 @@ button.trigger {
 	display: block;
 	margin-left: -0.5em;
 	padding: 0;
-	width: 1em;
-	height: 1em;
+	width: 2em;
+	height: 2em;
 	border: none;
 	background: transparent;
-	color: transparent;
-	font-size: 2em;
+	color: #fff;
+	font-size: 3em;
 	cursor: pointer;
 }
 
-.container:not(.notrans) button.trigger {
+.container-tour:not(.notrans) button.trigger {
 	-webkit-transition: opacity 0.3s 0.5s;
 	transition: opacity 0.3s 0.5s;
 }
 
-.container.modify:not(.notrans) button.trigger {
+.container-tour.modify:not(.notrans) button.trigger {
 	opacity: 0;
 	pointer-events: none;
 	-webkit-transition-delay: 0s;
@@ -266,7 +266,7 @@ button.trigger span::before {
 	border-color: #c03b5d;
 }
 
-.intro-effect-jam3.container {
+.intro-effect-jam3.container-tour {
 	padding: 45px 30px;
 }
 
@@ -1128,7 +1128,7 @@ button.trigger span::before {
 	left: 0;
 	height: 50%;
 	width: 25%;
-	background-image: url(../img/thumbs/1.jpg);
+	background-image: url(../images/logo.png);
 }
 
 .intro-effect-grid .grid li:nth-child(2) {
@@ -1136,7 +1136,7 @@ button.trigger span::before {
 	left: 0;
 	height: 50%;
 	width: 25%;
-	background-image: url(../img/thumbs/2.jpg);
+	background-image: url(../images/mycenae.jpeg);
 }
 
 .intro-effect-grid .grid li:nth-child(3) {
@@ -1144,7 +1144,7 @@ button.trigger span::before {
 	left: 25%;
 	height: 100%;
 	width: 25%;
-	background-image: url(../img/thumbs/5.jpg);
+	background-image: url(../images/sounio.jpg);
 }
 
 .intro-effect-grid .grid li:nth-child(4) {
@@ -1152,7 +1152,7 @@ button.trigger span::before {
 	left: 50%;
 	height: 50%;
 	width: 50%;
-	background-image: url(../img/thumbs/4.jpg);
+	background-image: url(../images/bike.jpeg);
 }
 
 .intro-effect-grid .grid li:nth-child(5) {
@@ -1160,7 +1160,7 @@ button.trigger span::before {
 	left: 50%;
 	height: 50%;
 	width: 25%;
-	background-image: url(../img/thumbs/8.jpg);
+	background-image: url(../images/honey.jpg);
 	-webkit-transform: scale(0);
 	transform: scale(0);
 	opacity: 0;
@@ -1181,7 +1181,7 @@ button.trigger span::before {
 	left: 75%;
 	height: 50%;
 	width: 25%;
-	background-image: url(../img/thumbs/6.jpg);
+	background-image: url(../images/sail1.jpg);
 }
 
 .intro-effect-grid.modify .bg-img {

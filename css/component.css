@@ -37,7 +37,7 @@
 
 .og-expander {
 	position: absolute;
-	background: #ddd;
+	background: #fff;
 	top: auto;
 	left: 0;
 	width: 100%;
@@ -150,7 +150,7 @@
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background: #ddd;
+	background: #aaa;
 	box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
 	position: absolute;
 	top: 50%;
@@ -162,7 +162,7 @@
 }
 
 @-webkit-keyframes loader {
-	0% { background: #ddd; }
+	0% { background: #aaa; }
 	33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
 	66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
 }
@@ -415,4 +415,15 @@ ul.social li a {
   line-height: 40px;
   background-color: rgba(255, 255, 255, 0.2);
   display: inline-block;
+}
+
+.grid-item-title {
+	display: block;
+	background-color: #fff;
+	color: #000;
+	opacity: 0.8;
+	font-size: 1.4em;
+	position: relative;
+	top: -70px;
+	z-index: 9999;
 }
