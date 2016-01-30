@@ -240,7 +240,7 @@
 .menu--iris .menu__link {
 	position: relative;
 	text-align: center;
-	color: #b5b5b5;
+	color: #FD8400;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
@@ -248,7 +248,7 @@
 .menu--iris .menu__item--current .menu__link,
 .menu--iris .menu__link:hover,
 .menu--iris .menu__link:focus {
-	color: #d94f5c;
+	color: #26B864;
 }
 
 .menu--iris .menu__link::before,
@@ -258,7 +258,7 @@
 	width: 10px;
 	height: 10px;
 	opacity: 0;
-	border: 2px solid #d94f5c;
+	border: 2px solid #26B864;
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
 	transition: transform 0.3s, opacity 0.3s;
 	-webkit-transition-timing-function: cubic-bezier(0.17, 0.67, 0.05, 1.29);
@@ -300,7 +300,7 @@
     margin-top: 8px;
     margin-right: 15px;
     margin-bottom: 8px;
-    background-color: #d94f5c;
+    background-color: #26B864;
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -308,7 +308,8 @@
 
 .navbar-fixed-top {
 background-color: #ffffff;
-border-bottom: 2px solid #d94f5c;
+border-bottom: 2px solid #26B864;
+padding-top: 5px;
 }
 
 .container.site {
@@ -323,10 +324,94 @@ top: -16px;
 
 .arrow a,
 .arrow a:hover { 
-color: #d94f5c;
+color: #26B864;
 }
 
-.main {
-border-bottom: 2px solid #d94f5c;
+.main,
+.carousel {
+border-bottom: 2px solid #26B864;
 
+}
+
+.carousel.slide {
+	margin-top: 5px;
+	height: 550px;
+	margin-bottom: 20px;
+}
+
+.carousel-inner > .item > img {
+	width: 100%;
+	height: 550px;
+}
+
+.carousel-caption {
+	background-color: #000;
+	font-size: 2em;
+	font-weight: 900;
+	opacity: 0.8;
+	padding: 1px;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.footer {
+	border-top: 3px solid #FD8400;
+	border-bottom: 1px solid #fff;
+	background-color: #26B864;
+	color: #fff;
+}
+
+.footer-links {
+	list-style-type: none;
+}
+
+.footer-links li {
+	padding-top: 3px;
+	color: #fff;
+}
+
+.footer-links li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-links li a:hover {
+	color: #fff;
+	font-weight: bolder;
+}
+
+.media img {
+	width: 64px;
+	height: 64px;
+	border: 1px solid #FD8400;
+}
+
+.site-footer {
+  background-color: #26b864;
+  color: white;
+  padding: 25px 0;
+}
+.site-footer a {
+  color: white;
+}
+.site-footer span {
+  margin-top: 5px;
+  display: block;
+}
+
+ul.social {
+  text-align: right;
+}
+ul.social li {
+  display: inline-block;
+}
+ul.social li a {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: inline-block;
 }
