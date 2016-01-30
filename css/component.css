@@ -345,11 +345,12 @@ border-bottom: 2px solid #26B864;
 }
 
 .carousel-caption {
-	background-color: #000;
+	background-color: #fff;
 	font-size: 2em;
 	font-weight: 900;
 	opacity: 0.8;
 	padding: 1px;
+	color: #000;
 }
 
 .logo img {
