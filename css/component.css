@@ -29,7 +29,7 @@
 	width: 0;
 	position: absolute;
 	pointer-events: none;
-	border-bottom-color: #ddd;
+	border-bottom-color: #26B864;
 	border-width: 15px;
 	left: 50%;
 	margin: -20px 0 0 -15px;
@@ -38,6 +38,8 @@
 .og-expander {
 	position: absolute;
 	background: #fff;
+	border-top: 2px solid #26B864;
+	border-bottom: 2px solid #26B864;
 	top: auto;
 	left: 0;
 	width: 100%;
